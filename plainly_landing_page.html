@@ -569,7 +569,7 @@
             }
 
             // If FORM_ENDPOINT is provided, send via fetch
-            if (FORM_ENDPOINT && FORM_ENDPOINT.trim() !== "https://formspree.io/f/myezrlbg") {
+         if (FORM_ENDPOINT.trim() !== "") {
                 submitBtn.disabled = true;
                 submitBtn.textContent = 'Sending...';
 
